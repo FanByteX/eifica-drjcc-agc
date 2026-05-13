@@ -1,0 +1,114 @@
+
+Gurobi 12.0.3 (linux64) logging started Thu Mar 26 23:25:55 2026
+
+Set parameter LogFile to value "/home/solar-wind/WT_Solar_results_bigM100000_thread4/case24_ieee_rts_theta0.12_epsilon0.08_gurobi_seed30000_num_gen38_N_WDR150_load_scaling_factor1_FICA_T24_num_Solar5_num_WT10.txt"
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 22.04.5 LTS")
+
+CPU model: Intel(R) Xeon(R) Platinum 8378A CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  14400
+MIPGap  0.001
+Seed  30000
+Threads  4
+
+Academic license 2721591 - for non-commercial use only - registered to fa___@mails.neu.edu.cn
+Optimize a model with 699780 rows, 1975 columns and 40555704 nonzeros
+Model fingerprint: 0xb7783fe3
+Model has 912 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [3e-07, 7e+01]
+  Objective range  [2e+01, 6e+01]
+  QObjective range [4e-03, 2e-02]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e-02, 1e+03]
+Presolve removed 361617 rows and 0 columns
+Presolve time: 4.67s
+Presolved: 338163 rows, 2849 columns, 4043444 nonzeros
+Presolved model has 912 quadratic objective terms
+Elapsed ordering time = 10s
+Elapsed ordering time = 32s
+Ordering time: 67.62s
+Elapsed ordering time = 68s
+Elapsed ordering time = 70s
+Elapsed ordering time = 75s
+Elapsed ordering time = 80s
+Elapsed ordering time = 85s
+Elapsed ordering time = 92s
+Elapsed ordering time = 95s
+Elapsed ordering time = 104s
+Elapsed ordering time = 105s
+Elapsed ordering time = 110s
+Elapsed ordering time = 117s
+Elapsed ordering time = 120s
+Elapsed ordering time = 129s
+Elapsed ordering time = 132s
+Elapsed ordering time = 135s
+Ordering time: 140.94s
+
+Barrier statistics:
+ Dense cols : 979
+ AA' NZ     : 3.934e+08
+ Factor NZ  : 1.137e+09 (roughly 10.0 GB of memory)
+ Factor Ops : 1.026e+13 (roughly 60 seconds per iteration)
+ Threads    : 4
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   5.56199405e+08 -2.95859425e+08  3.75e+04 9.99e+02  9.96e+05   322s
+   1   4.72216661e+08 -2.21173239e+08  3.37e+04 8.94e+02  8.93e+05   323s
+   2   4.64217462e+08 -2.14687437e+08  3.33e+04 8.84e+02  8.83e+05   323s
+   3   4.61832376e+08 -2.16466021e+08  3.31e+04 8.81e+02  8.80e+05   324s
+   4   2.98508094e+08 -4.31872949e+08  2.48e+04 6.46e+02  6.50e+05   325s
+   5   2.44602047e+08 -5.44977067e+08  2.15e+04 5.59e+02  5.91e+05   325s
+   6   2.09992943e+08 -5.90851105e+08  1.93e+04 4.99e+02  5.28e+05   326s
+   7   1.78089778e+08 -6.39485749e+08  1.72e+04 4.39e+02  4.66e+05   326s
+   8   1.53024533e+08 -6.81509228e+08  1.52e+04 3.89e+02  4.14e+05   326s
+   9   1.27713911e+08 -7.26287806e+08  1.32e+04 3.36e+02  3.59e+05   326s
+  10   1.03796542e+08 -7.71085233e+08  1.12e+04 2.83e+02  3.04e+05   327s
+  11   8.23805843e+07 -8.09702537e+08  9.20e+03 2.31e+02  2.50e+05   327s
+  12   7.25145250e+07 -8.28644474e+08  8.22e+03 2.07e+02  2.24e+05   327s
+  13   6.09151907e+07 -8.53129811e+08  7.06e+03 1.77e+02  1.93e+05   327s
+  14   4.59648151e+07 -8.80654783e+08  5.52e+03 1.37e+02  1.51e+05   328s
+  15   3.39400078e+07 -9.03222263e+08  4.18e+03 1.04e+02  1.16e+05   328s
+  16   2.67265323e+07 -9.14923469e+08  3.34e+03 8.28e+01  9.31e+04   328s
+  17   1.68176965e+07 -9.22132083e+08  2.14e+03 5.30e+01  6.12e+04   328s
+  18   5.26071751e+06 -8.98206770e+08  1.34e+03 1.61e+01  2.21e+04   328s
+  19   2.61366556e+06 -7.79279335e+08  7.20e+02 7.31e+00  1.16e+04   329s
+  20   2.05601138e+06 -7.10846784e+08  5.17e+02 5.44e+00  8.73e+03   329s
+  21   1.19859332e+06 -7.52155145e+08  1.83e+02 2.45e+00  5.51e+03   329s
+  22   9.58451874e+05 -6.07395566e+08  1.07e+02 1.45e+00  3.44e+03   329s
+  23   8.32487108e+05 -5.09008231e+08  6.30e+01 8.57e-01  2.34e+03   330s
+  24   7.74337188e+05 -4.28264466e+08  4.27e+01 5.83e-01  1.75e+03   330s
+  25   7.50698570e+05 -3.98550440e+08  3.35e+01 4.54e-01  1.54e+03   331s
+  26   7.29716834e+05 -3.36461520e+08  2.46e+01 3.30e-01  1.22e+03   332s
+  27   7.15254071e+05 -2.87165210e+08  1.78e+01 2.38e-01  9.88e+02   333s
+  28   7.09495278e+05 -2.58838435e+08  1.47e+01 1.98e-01  8.70e+02   334s
+  29   7.06862225e+05 -2.43749023e+08  1.33e+01 1.77e-01  8.09e+02   335s
+  30   7.02071017e+05 -2.15266353e+08  1.11e+01 1.38e-01  6.99e+02   336s
+  31   6.97810570e+05 -1.49757612e+08  7.66e+00 9.14e-02  4.73e+02   338s
+  32   6.96423208e+05 -1.42625235e+08  6.24e+00 7.71e-02  4.48e+02   341s
+  33   6.94949984e+05 -1.28960714e+08  5.32e+00 6.57e-02  4.08e+02   367s
+  34   6.92576410e+05 -1.12400634e+08  3.59e+00 4.44e-02  3.50e+02   395s
+  35   6.86256469e+05 -3.76714969e+07  3.60e-06 1.99e-04  1.12e+02   419s
+  36   6.78347017e+05 -4.93865341e+05  1.87e-03 5.59e-03  3.43e+00   444s
+  37   6.18929594e+05  2.81078777e+05  1.72e-04 3.12e-04  9.88e-01   471s
+  38   6.00184634e+05  5.16410650e+05  1.75e-05 2.31e-05  2.45e-01   500s
+  39   5.97243770e+05  5.47864753e+05  7.46e-06 9.83e-06  1.44e-01   545s
+  40   5.95312422e+05  5.68693198e+05  5.96e-07 7.85e-07  7.79e-02   591s
+  41   5.94428436e+05  5.81793685e+05  3.62e-08 4.76e-08  3.70e-02   638s
+  42   5.94068054e+05  5.86924173e+05  8.08e-11 5.31e-11  2.09e-02   687s
+  43   5.93913295e+05  5.89227130e+05  6.50e-11 3.21e-11  1.37e-02   730s
+  44   5.93716076e+05  5.92202684e+05  1.32e-10 2.58e-11  4.43e-03   779s
+  45   5.93655306e+05  5.93124870e+05  4.18e-10 2.78e-10  1.55e-03   830s
+  46   5.93633448e+05  5.93462172e+05  1.94e-09 2.28e-09  5.01e-04   875s
+  47   5.93627476e+05  5.93553402e+05  2.21e-11 2.66e-12  2.17e-04   918s
+  48   5.93623164e+05  5.93619775e+05  5.25e-09 6.99e-12  9.91e-06   963s
+  49   5.93622953e+05  5.93622941e+05  2.39e-09 1.33e-09  3.57e-08  1009s
+  50   5.93622953e+05  5.93622949e+05  5.38e-07 4.95e-11  1.12e-08  1071s
+  51   5.93622952e+05  5.93622951e+05  7.32e-07 7.24e-09  4.36e-09  1130s
+
+Barrier solved model in 51 iterations and 1129.70 seconds (1325.86 work units)
+Optimal objective 5.93622952e+05
+

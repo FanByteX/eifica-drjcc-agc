@@ -1,0 +1,80 @@
+
+Gurobi 12.0.3 (linux64) logging started Fri Mar 27 06:43:56 2026
+
+Set parameter LogFile to value "/home/solar-wind/WT_Solar_results_bigM100000_thread4/case24_ieee_rts_theta0.1_epsilon0.05_gurobi_seed0_num_gen38_N_WDR100_load_scaling_factor1_FICA_T24_num_Solar5_num_WT10.txt"
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 22.04.5 LTS")
+
+CPU model: Intel(R) Xeon(R) Platinum 8378A CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  14400
+MIPGap  0.001
+Threads  4
+
+Academic license 2721591 - for non-commercial use only - registered to fa___@mails.neu.edu.cn
+Optimize a model with 495644 rows, 1925 columns and 27696760 nonzeros
+Model fingerprint: 0xd3c4b2f7
+Model has 912 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [3e-06, 6e+01]
+  Objective range  [2e+01, 6e+01]
+  QObjective range [4e-03, 2e-02]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-02, 1e+03]
+Presolve removed 283360 rows and 0 columns
+Presolve time: 3.18s
+Presolved: 212284 rows, 2799 columns, 2336154 nonzeros
+Presolved model has 912 quadratic objective terms
+Elapsed ordering time = 16s
+Ordering time: 31.98s
+Elapsed ordering time = 32s
+Elapsed ordering time = 36s
+Elapsed ordering time = 37s
+Elapsed ordering time = 40s
+Elapsed ordering time = 43s
+Elapsed ordering time = 46s
+Ordering time: 48.49s
+
+Barrier statistics:
+ Dense cols : 953
+ AA' NZ     : 1.331e+08
+ Factor NZ  : 3.037e+08 (roughly 2.5 GB of memory)
+ Factor Ops : 1.254e+12 (roughly 8 seconds per iteration)
+ Threads    : 4
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   5.46771627e+08 -2.62334287e+08  3.65e+04 1.00e+03  9.98e+05   140s
+   1   4.52805654e+08 -1.93809338e+08  3.20e+04 8.77e+02  8.76e+05   144s
+   2   3.01580445e+08 -3.88719414e+08  2.38e+04 6.51e+02  6.67e+05   147s
+   3   1.41724067e+08 -5.46034765e+08  1.31e+04 3.58e+02  4.10e+05   151s
+   4   1.04833861e+07 -1.37252438e+09  1.14e+03 2.84e+03  6.63e+04   155s
+   5   1.71088140e+06 -1.07928251e+09  1.10e+02 1.92e+03  1.05e+04   159s
+   6   1.01640787e+06 -7.83007590e+08  2.66e+01 8.97e+02  4.73e+03   163s
+   7   9.13006079e+05 -5.44631223e+08  1.41e+01 5.02e+02  2.95e+03   167s
+   8   8.71976140e+05 -3.94926657e+08  9.14e+00 3.27e+02  2.04e+03   172s
+   9   8.12788758e+05 -1.89892072e+08  1.94e+00 5.39e+01  9.10e+02   176s
+  10   8.08022880e+05 -1.40080815e+08  1.37e+00 3.76e+01  6.70e+02   181s
+  11   7.96325622e+05 -3.39308537e+07  1.37e-06 2.62e-02  1.61e+02   186s
+  12   7.91177415e+05 -1.02624759e+06  8.06e-07 1.27e-03  8.42e+00   190s
+  13   7.45555107e+05  8.62981980e+04  4.24e-06 2.21e-02  3.05e+00   195s
+  14   7.27116046e+05  6.33830343e+05  2.33e-07 1.48e-03  4.32e-01   201s
+  15   7.22160178e+05  6.87374342e+05  5.47e-06 3.30e-04  1.61e-01   206s
+  16   7.20868259e+05  7.07436250e+05  8.38e-07 5.07e-05  6.22e-02   213s
+  17   7.20534136e+05  7.12755283e+05  2.18e-07 1.32e-05  3.60e-02   219s
+  18   7.20378957e+05  7.15523289e+05  9.69e-08 5.86e-06  2.25e-02   226s
+  19   7.20304555e+05  7.16924593e+05  3.11e-08 1.87e-06  1.57e-02   232s
+  20   7.20233404e+05  7.18255122e+05  9.66e-09 5.83e-07  9.16e-03   238s
+  21   7.20186253e+05  7.19146508e+05  3.30e-09 1.99e-07  4.81e-03   244s
+  22   7.20156398e+05  7.19722250e+05  7.48e-10 4.64e-08  2.01e-03   250s
+  23   7.20148368e+05  7.19876879e+05  3.19e-10 2.06e-08  1.26e-03   256s
+  24   7.20140532e+05  7.20029838e+05  9.43e-11 9.87e-09  5.13e-04   262s
+  25   7.20137812e+05  7.20083442e+05  1.92e-10 3.63e-12  2.52e-04   269s
+  26   7.20135648e+05  7.20126405e+05  2.52e-09 1.10e-10  4.28e-05   276s
+  27   7.20135243e+05  7.20134417e+05  3.68e-09 2.96e-12  3.82e-06   282s
+  28   7.20135204e+05  7.20135203e+05  1.75e-09 2.47e-09  4.58e-09   289s
+
+Barrier solved model in 28 iterations and 289.28 seconds (284.95 work units)
+Optimal objective 7.20135204e+05
+

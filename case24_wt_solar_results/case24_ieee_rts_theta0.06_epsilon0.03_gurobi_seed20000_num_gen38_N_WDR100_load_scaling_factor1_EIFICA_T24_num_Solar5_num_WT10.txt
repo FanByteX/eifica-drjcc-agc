@@ -1,0 +1,76 @@
+
+Gurobi 12.0.3 (linux64) logging started Fri Mar 27 23:58:55 2026
+
+Set parameter LogFile to value "/home/solar-wind/WT_Solar_results_bigM100000_thread4/case24_ieee_rts_theta0.06_epsilon0.03_gurobi_seed20000_num_gen38_N_WDR100_load_scaling_factor1_EIFICA_T24_num_Solar5_num_WT10.txt"
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 22.04.5 LTS")
+
+CPU model: Intel(R) Xeon(R) Platinum 8378A CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  14400
+MIPGap  0.001
+Seed  20000
+Threads  4
+
+Academic license 2721591 - for non-commercial use only - registered to fa___@mails.neu.edu.cn
+Optimize a model with 320540 rows, 1925 columns and 26325112 nonzeros
+Model fingerprint: 0xf586b19b
+Model has 912 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [2e-06, 6e+01]
+  Objective range  [3e+01, 6e+01]
+  QObjective range [4e-03, 2e-02]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [9e-03, 1e+03]
+Presolve removed 280589 rows and 0 columns
+Presolve time: 2.54s
+Presolved: 39951 rows, 2799 columns, 1270032 nonzeros
+Presolved model has 912 quadratic objective terms
+Ordering time: 0.61s
+
+Barrier statistics:
+ Dense cols : 1829
+ AA' NZ     : 1.309e+06
+ Factor NZ  : 3.310e+06 (roughly 45 MB of memory)
+ Factor Ops : 2.320e+09 (less than 1 second per iteration)
+ Threads    : 4
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   5.85451081e+08 -3.02439013e+08  3.75e+04 1.00e+03  9.95e+05     6s
+   1   4.84400746e+08 -2.31237471e+08  3.30e+04 8.79e+02  8.75e+05     6s
+   2   3.70029027e+08 -2.11154243e+08  2.72e+04 7.26e+02  7.84e+05     6s
+   3   2.86770699e+08 -2.01100712e+08  2.26e+04 6.03e+02  6.82e+05     6s
+   4   2.08429927e+08 -2.15116725e+08  1.78e+04 4.74e+02  5.77e+05     6s
+   5   1.43551248e+08 -2.47452324e+08  1.32e+04 3.53e+02  4.68e+05     6s
+   6   7.10059664e+07 -3.70166965e+08  7.35e+03 1.96e+02  3.28e+05     6s
+   7   1.77001154e+07 -5.19464875e+08  2.03e+03 5.42e+01  1.27e+05     6s
+   8   3.82819781e+06 -4.62146805e+08  3.90e+02 1.04e+01  3.67e+04     6s
+   9   2.21705313e+06 -3.41234153e+08  1.88e+02 5.02e+00  1.98e+04     6s
+  10   1.36700467e+06 -2.25640289e+08  8.04e+01 2.14e+00  9.46e+03     6s
+  11   1.10742907e+06 -2.09265809e+08  4.73e+01 1.26e+00  7.44e+03     6s
+  12   9.39911542e+05 -1.56350447e+08  2.59e+01 6.91e-01  4.84e+03     6s
+  13   8.64934354e+05 -1.38748357e+08  1.63e+01 4.35e-01  3.97e+03     6s
+  14   7.98329287e+05 -1.01229221e+08  7.85e+00 2.09e-01  2.69e+03     6s
+  15   7.48989761e+05 -2.79756170e+07  1.63e+00 4.33e-02  7.08e+02     6s
+  16   7.47577539e+05 -2.58497593e+07  1.45e+00 3.87e-02  6.56e+02     6s
+  17   7.36009697e+05 -9.15919264e+06  7.30e-02 1.95e-03  2.28e+02     6s
+  18   7.30112507e+05  7.34531132e+04  4.79e-03 1.28e-04  1.51e+01     6s
+  19   6.90216272e+05  3.79573254e+05  1.67e-03 4.46e-05  7.12e+00     7s
+  20   6.59855498e+05  5.02851071e+05  3.70e-04 9.87e-06  3.60e+00     7s
+  21   6.47133427e+05  5.99139659e+05  1.11e-05 2.97e-07  1.10e+00     7s
+  22   6.43750081e+05  6.23046247e+05  2.26e-06 6.04e-08  4.75e-01     7s
+  23   6.42710130e+05  6.30675004e+05  3.01e-07 8.03e-09  2.76e-01     7s
+  24   6.41860242e+05  6.35525268e+05  1.36e-07 3.62e-09  1.45e-01     7s
+  25   6.41130088e+05  6.39708338e+05  2.03e-08 5.42e-10  3.26e-02     7s
+  26   6.40982199e+05  6.40561098e+05  1.48e-09 2.11e-10  9.66e-03     7s
+  27   6.40942506e+05  6.40782592e+05  1.19e-10 1.60e-10  3.67e-03     7s
+  28   6.40922898e+05  6.40892238e+05  1.99e-11 3.27e-11  7.03e-04     7s
+  29   6.40919081e+05  6.40913535e+05  8.53e-14 4.52e-11  1.27e-04     7s
+  30   6.40918246e+05  6.40918237e+05  6.43e-11 5.79e-10  2.16e-07     7s
+  31   6.40918245e+05  6.40918245e+05  1.35e-09 2.23e-09  2.39e-10     7s
+
+Barrier solved model in 31 iterations and 7.14 seconds (14.06 work units)
+Optimal objective 6.40918245e+05
+

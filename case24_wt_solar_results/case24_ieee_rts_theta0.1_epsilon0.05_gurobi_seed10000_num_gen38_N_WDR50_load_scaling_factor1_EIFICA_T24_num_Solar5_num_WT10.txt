@@ -1,0 +1,76 @@
+
+Gurobi 12.0.3 (linux64) logging started Fri Mar 27 06:20:49 2026
+
+Set parameter LogFile to value "/home/solar-wind/WT_Solar_results_bigM100000_thread4/case24_ieee_rts_theta0.1_epsilon0.05_gurobi_seed10000_num_gen38_N_WDR50_load_scaling_factor1_EIFICA_T24_num_Solar5_num_WT10.txt"
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 22.04.5 LTS")
+
+CPU model: Intel(R) Xeon(R) Platinum 8378A CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  14400
+MIPGap  0.001
+Seed  10000
+Threads  4
+
+Academic license 2721591 - for non-commercial use only - registered to fa___@mails.neu.edu.cn
+Optimize a model with 222196 rows, 1875 columns and 14231944 nonzeros
+Model fingerprint: 0xc5b712a8
+Model has 912 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [4e-06, 6e+01]
+  Objective range  [2e+01, 6e+01]
+  QObjective range [4e-03, 2e-02]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [8e-03, 1e+03]
+Presolve removed 194367 rows and 0 columns
+Presolve time: 1.45s
+Presolved: 27829 rows, 2749 columns, 713616 nonzeros
+Presolved model has 912 quadratic objective terms
+Ordering time: 0.23s
+
+Barrier statistics:
+ Dense cols : 1779
+ AA' NZ     : 7.336e+05
+ Factor NZ  : 2.510e+06 (roughly 30 MB of memory)
+ Factor Ops : 2.039e+09 (less than 1 second per iteration)
+ Threads    : 4
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   5.84860995e+08 -3.07194152e+08  3.70e+04 1.00e+03  9.95e+05     3s
+   1   4.73715915e+08 -2.29761125e+08  3.21e+04 8.68e+02  8.65e+05     3s
+   2   3.82735115e+08 -1.99627426e+08  2.76e+04 7.47e+02  7.49e+05     3s
+   3   2.79919931e+08 -1.67526014e+08  2.20e+04 5.95e+02  6.32e+05     3s
+   4   1.81143623e+08 -1.54469194e+08  1.58e+04 4.27e+02  4.84e+05     3s
+   5   8.57565695e+07 -2.03943702e+08  8.58e+03 2.32e+02  3.35e+05     3s
+   6   3.60622849e+07 -2.91798379e+08  3.98e+03 1.08e+02  2.13e+05     3s
+   7   6.29878461e+06 -2.76657952e+08  6.83e+02 1.85e+01  4.70e+04     3s
+   8   3.34772593e+06 -2.23222478e+08  3.22e+02 8.72e+00  2.54e+04     3s
+   9   1.71929859e+06 -2.00095592e+08  1.22e+02 3.30e+00  1.43e+04     3s
+  10   1.17043500e+06 -1.61758624e+08  5.38e+01 1.45e+00  8.53e+03     3s
+  11   9.85167701e+05 -1.33617560e+08  3.07e+01 8.30e-01  6.13e+03     3s
+  12   7.62655360e+05 -6.25663346e+07  2.93e+00 7.91e-02  2.16e+03     3s
+  13   7.60334687e+05 -5.82302445e+07  2.64e+00 7.14e-02  2.04e+03     3s
+  14   7.59588823e+05 -5.60936942e+07  2.55e+00 6.90e-02  1.97e+03     3s
+  15   7.57495472e+05 -5.35708220e+07  2.30e+00 6.22e-02  1.85e+03     3s
+  16   7.51674035e+05 -4.26317298e+07  1.61e+00 4.35e-02  1.45e+03     3s
+  17   7.37364037e+05 -4.02233820e+06  3.35e-03 9.04e-05  1.51e+02     3s
+  18   7.16418685e+05  3.51102441e+05  2.15e-04 5.80e-06  1.16e+01     4s
+  19   6.58661212e+05  5.25095400e+05  4.61e-05 1.25e-06  4.25e+00     4s
+  20   6.42383102e+05  5.68775112e+05  1.69e-05 4.57e-07  2.34e+00     4s
+  21   6.32443637e+05  6.02853174e+05  5.06e-06 1.37e-07  9.41e-01     4s
+  22   6.29003397e+05  6.15328341e+05  1.61e-06 4.34e-08  4.35e-01     4s
+  23   6.27739157e+05  6.20266505e+05  4.36e-07 1.18e-08  2.38e-01     4s
+  24   6.26964469e+05  6.23757660e+05  7.00e-08 1.89e-09  1.02e-01     4s
+  25   6.26617186e+05  6.25431301e+05  9.54e-13 3.38e-10  3.77e-02     4s
+  26   6.26464486e+05  6.26225373e+05  2.68e-12 8.26e-10  7.60e-03     4s
+  27   6.26434311e+05  6.26383717e+05  3.13e-12 6.11e-10  1.61e-03     4s
+  28   6.26427775e+05  6.26418277e+05  3.20e-09 3.70e-09  3.02e-04     4s
+  29   6.26426422e+05  6.26425473e+05  1.52e-09 3.53e-12  3.02e-05     4s
+  30   6.26426272e+05  6.26426270e+05  4.86e-09 1.74e-11  6.36e-08     4s
+  31   6.26426272e+05  6.26426272e+05  2.87e-11 2.83e-09  6.37e-11     4s
+
+Barrier solved model in 31 iterations and 3.95 seconds (7.36 work units)
+Optimal objective 6.26426272e+05
+

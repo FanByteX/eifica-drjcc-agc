@@ -1,0 +1,108 @@
+
+Gurobi 12.0.3 (linux64) logging started Fri Mar 27 00:28:49 2026
+
+Set parameter LogFile to value "/home/solar-wind/WT_Solar_results_bigM100000_thread4/case24_ieee_rts_theta0.12_epsilon0.08_gurobi_seed30000_num_gen38_N_WDR200_load_scaling_factor1_EIFICA_T24_num_Solar5_num_WT10.txt"
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Ubuntu 22.04.5 LTS")
+
+CPU model: Intel(R) Xeon(R) Platinum 8378A CPU @ 3.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 32 physical cores, 64 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  14400
+MIPGap  0.001
+Seed  30000
+Threads  4
+
+Academic license 2721591 - for non-commercial use only - registered to fa___@mails.neu.edu.cn
+Optimize a model with 595812 rows, 2025 columns and 50902696 nonzeros
+Model fingerprint: 0xc91bfa97
+Model has 912 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [3e-07, 7e+01]
+  Objective range  [2e+01, 6e+01]
+  QObjective range [4e-03, 2e-02]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [4e-02, 1e+03]
+Presolve removed 440573 rows and 0 columns
+Presolve time: 5.13s
+Presolved: 155239 rows, 2899 columns, 3650252 nonzeros
+Presolved model has 912 quadratic objective terms
+Elapsed ordering time = 12s
+Elapsed ordering time = 15s
+Ordering time: 23.00s
+Elapsed ordering time = 23s
+Elapsed ordering time = 26s
+Elapsed ordering time = 30s
+Elapsed ordering time = 34s
+Elapsed ordering time = 35s
+Elapsed ordering time = 38s
+Elapsed ordering time = 40s
+Elapsed ordering time = 42s
+Ordering time: 46.47s
+
+Barrier statistics:
+ Dense cols : 1073
+ AA' NZ     : 1.525e+08
+ Factor NZ  : 6.889e+08 (roughly 6.0 GB of memory)
+ Factor Ops : 8.520e+12 (roughly 50 seconds per iteration)
+ Threads    : 4
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   5.56029206e+08 -2.95769130e+08  3.75e+04 9.93e+02  9.91e+05   129s
+   1   4.99750268e+08 -2.53329875e+08  3.49e+04 9.25e+02  9.23e+05   129s
+   2   4.84010846e+08 -2.83489798e+08  3.42e+04 9.05e+02  9.12e+05   129s
+   3   4.47929265e+08 -2.75374836e+08  3.25e+04 8.58e+02  8.66e+05   129s
+   4   4.07141562e+08 -3.33707262e+08  3.05e+04 8.04e+02  8.30e+05   129s
+   5   3.52582122e+08 -4.05156057e+08  2.79e+04 7.27e+02  8.01e+05   130s
+   6   2.98852731e+08 -4.78216951e+08  2.50e+04 6.45e+02  7.67e+05   130s
+   7   2.58889337e+08 -4.99637765e+08  2.26e+04 5.80e+02  7.13e+05   130s
+   8   2.13378267e+08 -5.16352029e+08  1.97e+04 5.02e+02  6.20e+05   130s
+   9   1.85603692e+08 -5.31734942e+08  1.78e+04 4.51e+02  5.59e+05   130s
+  10   1.59630903e+08 -5.45778945e+08  1.59e+04 4.00e+02  4.97e+05   130s
+  11   1.37625001e+08 -5.64310674e+08  1.42e+04 3.54e+02  4.41e+05   130s
+  12   1.16201395e+08 -5.81419331e+08  1.24e+04 3.08e+02  3.85e+05   130s
+  13   9.63865164e+07 -6.00626745e+08  1.07e+04 2.63e+02  3.31e+05   131s
+  14   8.16440839e+07 -6.21570944e+08  9.35e+03 2.28e+02  2.88e+05   131s
+  15   6.78229489e+07 -6.43747869e+08  8.03e+03 1.94e+02  2.46e+05   131s
+  16   5.57182804e+07 -6.65364588e+08  6.80e+03 1.62e+02  2.07e+05   131s
+  17   4.31636202e+07 -6.86864225e+08  5.42e+03 1.28e+02  1.65e+05   131s
+  18   3.21530309e+07 -7.02153136e+08  4.15e+03 9.74e+01  1.27e+05   131s
+  19   2.45741177e+07 -7.08651289e+08  3.63e+03 7.55e+01  9.95e+04   131s
+  20   1.69586599e+07 -7.05361173e+08  3.37e+03 5.26e+01  7.07e+04   131s
+  21   5.20749973e+06 -6.64362565e+08  2.90e+03 1.57e+01  3.10e+04   131s
+  22   4.27251215e+06 -6.19904054e+08  2.44e+03 1.25e+01  2.49e+04   131s
+  23   3.33077138e+06 -5.62360114e+08  1.93e+03 9.42e+00  1.90e+04   131s
+  24   2.54329475e+06 -4.92057821e+08  1.38e+03 6.86e+00  1.41e+04   132s
+  25   1.95480431e+06 -4.30793870e+08  1.01e+03 4.98e+00  1.04e+04   132s
+  26   1.51651341e+06 -3.67696654e+08  6.95e+02 3.47e+00  7.38e+03   132s
+  27   1.24417028e+06 -3.36368618e+08  4.80e+02 2.47e+00  5.67e+03   132s
+  28   1.01626949e+06 -2.93006753e+08  3.06e+02 1.63e+00  4.06e+03   132s
+  29   9.09639146e+05 -2.49939950e+08  2.21e+02 1.18e+00  3.02e+03   132s
+  30   7.67809754e+05 -1.93556379e+08  1.03e+02 5.51e-01  1.79e+03   132s
+  31   7.37561367e+05 -1.64012429e+08  7.40e+01 3.97e-01  1.40e+03   133s
+  32   7.17694304e+05 -1.39954097e+08  5.36e+01 2.87e-01  1.12e+03   133s
+  33   7.10874087e+05 -1.28393527e+08  4.57e+01 2.45e-01  1.00e+03   133s
+  34   7.03816386e+05 -1.15690722e+08  3.73e+01 2.00e-01  8.76e+02   134s
+  35   6.96973046e+05 -9.88991659e+07  2.68e+01 1.45e-01  7.23e+02   134s
+  36   6.93944521e+05 -7.35551166e+07  1.91e+01 1.03e-01  5.23e+02   135s
+  37   6.92912121e+05 -6.71673974e+07  1.35e+01 7.28e-02  4.71e+02   136s
+  38   6.90503038e+05 -3.85185638e+07  5.43e+00 2.90e-02  2.57e+02   137s
+  39   6.85867526e+05 -6.05693980e+06  6.50e-04 4.66e-01  4.24e+01   156s
+  40   6.73322050e+05  2.20157542e+05  1.42e-03 1.87e-02  2.85e+00   175s
+  41   6.14827791e+05  4.50235539e+05  1.94e-04 2.09e-03  1.04e+00   195s
+  42   6.01299969e+05  5.62522707e+05  5.22e-05 3.26e-04  2.44e-01   219s
+  43   5.96496944e+05  5.79746335e+05  2.43e-04 4.73e-05  1.05e-01   260s
+  44   5.95055641e+05  5.87324268e+05  1.57e-05 3.05e-06  4.86e-02   298s
+  45   5.94058931e+05  5.92414576e+05  1.65e-07 3.20e-08  1.03e-02   336s
+  46   5.93967401e+05  5.92783825e+05  4.28e-08 8.34e-09  7.44e-03   372s
+  47   5.93835079e+05  5.93430714e+05  2.16e-09 3.99e-10  2.54e-03   411s
+  48   5.93793688e+05  5.93632948e+05  6.66e-10 1.28e-10  1.01e-03   447s
+  49   5.93769700e+05  5.93753481e+05  1.04e-10 2.80e-12  1.02e-04   484s
+  50   5.93767330e+05  5.93765245e+05  7.71e-09 2.82e-12  1.31e-05   521s
+  51   5.93766980e+05  5.93766978e+05  4.56e-09 3.14e-10  1.58e-08   559s
+  52   5.93766980e+05  5.93766978e+05  2.08e-07 1.71e-11  1.36e-08   596s
+
+Barrier solved model in 52 iterations and 596.30 seconds (734.64 work units)
+Optimal objective 5.93766980e+05
+

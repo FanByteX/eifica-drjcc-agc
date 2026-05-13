@@ -1,0 +1,24 @@
+name: eifica
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.19
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scipy=1.13.0
+  - matplotlib=3.8.4
+  - seaborn=0.13.2
+  - joblib=1.5.2
+  - openpyxl=3.1.2
+  - xlsxwriter=3.2.9
+  - ipykernel=6.30.1
+  - jupyter_client=8.6.3
+  - nbformat=5.10.4
+  - nbconvert=7.16.6
+  - pip
+  - pip:
+      - pandapower==2.14.6
+      - PYPOWER==5.1.16
+      - gurobipy==11.0.3
+      - gurobi-logtools==3.1.0

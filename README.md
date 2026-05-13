@@ -46,7 +46,7 @@ conda env create -f environment.yml
 conda activate eifica
 ```
 
-Python in the original `fica` environment:
+Python in the original `eifica` environment:
 
 - Python `3.9.19`
 - server platform: `Ubuntu 22.04.5`

@@ -166,3 +166,4 @@ Current figure output conventions:
 - `__pycache__/` is ignored via `.gitignore`.
 - The repository currently includes generated results and large `.npy` files.
 - If the repo keeps growing, Git LFS is worth considering for large binary data.
+

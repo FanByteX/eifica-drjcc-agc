@@ -1,9 +1,9 @@
-# ESS DRJCC AGC
+# EIFICA: Distributionally Robust Mathematical Modelling for Renewable Dispatch
 
-Storage-aware DRJCC AGC scheduling experiments under wind and solar uncertainty.
+Envelope informed fast inner convex approximation (EIFICA) for data driven distributionally robust AGC scheduling with energy storage under wind and solar uncertainty. The model couples reliability modelling and scalable computation for renewable uncertainty aware power dispatch on IEEE test systems.
 
 Code for
-"A Constraint Family Based Inner Convex Approximation for Data-Driven Distributionally Robust AGC Scheduling with Energy Storage under Coupled Wind and Solar Uncertainty".
+"Distributionally Robust Mathematical Modelling and Scalable Computation for Renewable Uncertainty Aware Power Dispatch".
 
 All experimental data in this repository are publicly available. The main implementation file `Ess.py` will be released upon formal publication of the paper. If you need research access prior to publication, please feel free to open an issue or leave a message.
 

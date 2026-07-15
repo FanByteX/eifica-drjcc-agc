@@ -37,6 +37,18 @@ All paths below are relative to the repository root unless stated otherwise.
 - `Ess_plot.py`  
   Representative dispatch plotting.
 
+- `run_case118_cvar_seed0.py`  
+  Single seed CVaR, EIFICA, and FICA timing comparison on case118.
+
+- `run_case118_cvar_remaining_seeds.py`  
+  CVaR baseline runs for the remaining case118 seeds.
+
+- `run_case118_m0_sweep.py`  
+  Ramp budget sensitivity sweep on case118.
+
+- `run_case24_ess_sweep.py`  
+  Storage parameter sensitivity sweep on case24.
+
 ## Environment
 
 Create the conda environment:

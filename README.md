@@ -1,9 +1,9 @@
-# EIFICA: Distributionally Robust Mathematical Modelling for Renewable Dispatch
+# Data Driven Distributionally Robust Scheduling of AGC Participation Factors with Cumulative State of Charge Constraints: A Constraint Geometry Guided Convex Approximation
 
 Envelope informed fast inner convex approximation (EIFICA) for data driven distributionally robust AGC scheduling with energy storage under wind and solar uncertainty. The model couples reliability modelling and scalable computation for renewable uncertainty aware power dispatch on IEEE test systems.
 
 Code for
-"Distributionally Robust Mathematical Modelling and Scalable Computation for Renewable Uncertainty Aware Power Dispatch".
+"Data Driven Distributionally Robust Scheduling of AGC Participation Factors with Cumulative State of Charge Constraints: A Constraint Geometry Guided Convex Approximation".
 
 All experimental data in this repository are publicly available. The main implementation file `Ess.py` will be released upon formal publication of the paper. If you need research access prior to publication, please feel free to open an issue or leave a message.
 
@@ -178,4 +178,3 @@ Current figure output conventions:
 - `__pycache__/` is ignored via `.gitignore`.
 - The repository currently includes generated results and large `.npy` files.
 - If the repo keeps growing, Git LFS is worth considering for large binary data.
-

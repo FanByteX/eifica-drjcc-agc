@@ -17,7 +17,9 @@ This repository provides the EIFICA optimization implementation, processed renew
 
 ## Software environment
 
-The environment is specified in [`environment.yml`](environment.yml) and uses Python 3.9.19, pandapower 2.14.6, and Gurobi 12.0.3. Create it from the repository root:
+The software environment is specified in [`environment.yml`](environment.yml) and uses Python 3.9.19, pandapower 2.14.6, and Gurobi 12.0.3. The numerical experiments reported in the manuscript were run on Ubuntu 22.04.5 with two 3.00 GHz Intel Xeon Platinum 8378A CPUs.
+
+Create the environment from the repository root:
 
 ```bash
 conda env create -f environment.yml

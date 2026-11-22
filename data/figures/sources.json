@@ -1,0 +1,67 @@
+[
+  {
+    "file": "data/figures/rts24_soc.csv",
+    "source": "soc_exp_results/case24_fullgrid_ess6_N100_600_5seed/progress.csv",
+    "sha256": "3bde470c57c7a85828d20db48fec3f5c208760931ee6f7c995e4f710d95442a6"
+  },
+  {
+    "file": "data/figures/rts24_no_storage.csv",
+    "source": "no_ess_soc_baseline/case24_fullgrid_noess_N100_600_5seed/progress.csv",
+    "sha256": "bffef6656d2bf5f1778c2468a6a7b18d8dbadf68b5a5ac0dc330a7968e84f7bc"
+  },
+  {
+    "file": "data/figures/ieee118.csv",
+    "source": "ess_exp_results/case118/progress_case118.csv",
+    "sha256": "d42752c904555b76a700e820c67cbfe2bbf7c30e2a5de2be37673b868732f41e"
+  },
+  {
+    "file": "data/figures/ieee118_cvar.csv",
+    "source": "ess_exp_results/case118_legacy_cvar_5seed_merged/progress_case118_legacy_cvar_5seed.csv",
+    "sha256": "01fbbff6a9bf3aa694a6f6685867684556f7af8f2503c3bac5dcca03053022a3"
+  },
+  {
+    "file": "data/figures/exactlhs.csv",
+    "source": "exp_optimality_results_ess/optimality_gap_main.csv",
+    "sha256": "b8ad485fa860dd69d275c6e721be022a3d86fa0339b3d8f48a429286851b9df8"
+  },
+  {
+    "file": "data/figures/rts24_initialization.csv",
+    "source": "paper/09_APEN_revision_after_resubmission/07_reviewer_experiments/reviewer_02/R2-1_2_empty_initialization/results/r2_original_protocol_emptyfix_03/grid_summary.csv",
+    "sha256": "d038f70af664aa4eee3045f2e1b9f8cdbfc59c63cfd4fbb1e93dc3f604446c10"
+  },
+  {
+    "file": "data/figures/reserve/r23_118_003_006_full_01/summary.csv",
+    "source": "paper/09_APEN_revision_after_resubmission/07_reviewer_experiments/reviewer_02/R2-3_reserve_comparison/results/r23_118_003_006_full_01/summary.csv",
+    "sha256": "eed7128108ed7be03a972f35eb483fa13039d25ebd25c49c7fcff1eec407287f"
+  },
+  {
+    "file": "data/figures/reserve/r23_118_005_010_full_01/summary.csv",
+    "source": "paper/09_APEN_revision_after_resubmission/07_reviewer_experiments/reviewer_02/R2-3_reserve_comparison/results/r23_118_005_010_full_01/summary.csv",
+    "sha256": "5850b24e0087cbbe14176e1d3121f3df778f8e09f62fecc0aadc891909cebd34"
+  },
+  {
+    "file": "data/figures/reserve/r23_118_full_adaptive_01/summary.csv",
+    "source": "paper/09_APEN_revision_after_resubmission/07_reviewer_experiments/reviewer_02/R2-3_reserve_comparison/results/r23_118_full_adaptive_01/summary.csv",
+    "sha256": "05142d0028849c2bb6d420f3684bbddef0f7ec8a8982a246044255feb38b3555"
+  },
+  {
+    "file": "data/figures/reserve/r23_118_010_015_full_01/summary.csv",
+    "source": "paper/09_APEN_revision_after_resubmission/07_reviewer_experiments/reviewer_02/R2-3_reserve_comparison/results/r23_118_010_015_full_01/summary.csv",
+    "sha256": "236ec8dd30fe94cbeb137f3e3597cb9406ee0d5e2679a344c56d15696a13832a"
+  },
+  {
+    "file": "data/figures/error_correlations.npz",
+    "source": "plot_figure3_style.py: wind_correlations and solar_correlations",
+    "sha256": "c36621bada0e05ac8b14deb035243686fdf6abdc911b4aef712108b93f0a11c3"
+  },
+  {
+    "file": "data/figures/trajectory_6a.npz",
+    "source": "plot_soc_manuscript_figure4.py; current archived data; test path 2255",
+    "sha256": "7d24ee46d49d9a448ea5df1ec2fa6ff8dfe6b830551fa81c7ebf20834eebb2cf"
+  },
+  {
+    "file": "data/figures/trajectory_6bc.npz",
+    "source": "plot_soc_manuscript_figure4.py; data at Git 5de7c9c249afb26dcd6017030145bf9e76d9f075; test path 2255",
+    "sha256": "50fb512c0ab3e337e6a083c584b96b7b477082a047c124617f83026fe8471d50"
+  }
+]

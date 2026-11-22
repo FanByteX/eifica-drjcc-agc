@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the associated manuscript."
+title: "EIFICA AGC Scheduling: Selected Public Materials"
+type: software
+repository-code: "https://github.com/FanByteX/eifica-drjcc-agc"
+license: MIT

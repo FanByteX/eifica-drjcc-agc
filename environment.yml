@@ -1,0 +1,16 @@
+name: eifica-public
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy=1.26.4
+  - matplotlib=3.8.4
+  - scipy=1.13.0
+  - pandas=2.2.2
+  - seaborn=0.13.2
+  - pillow
+  - joblib=1.5.2
+  - pip
+  - pip:
+      - pandapower==2.14.6
+      - gurobipy==12.0.3

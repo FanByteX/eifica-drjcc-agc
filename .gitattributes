@@ -1,0 +1,5 @@
+*.ai binary
+*.npz binary
+*.npy binary
+*.pdf binary
+*.csv -text whitespace=cr-at-eol

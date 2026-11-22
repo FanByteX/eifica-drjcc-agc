@@ -1,4 +1,4 @@
-"""Draw all Figure 6 panels from one dispatch and error trajectory."""
+"""Draw Figure 6 from the bundled plotting arrays."""
 
 from __future__ import annotations
 

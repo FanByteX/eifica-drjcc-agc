@@ -1,6 +1,6 @@
 # Figure reproduction
 
-The included figure set defines the figure numbering and presentation used here.
+The scripts generate numbered figure PDFs from the bundled plotting data.
 
 Run from the repository root:
 

@@ -6,9 +6,9 @@ Companion repository for *“Data Driven Distributionally Robust Scheduling of A
 
 Envelope informed fast inner convex approximation (EIFICA) extends the fast inner convex approximation (FICA) computational framework to AGC adjusted generator ramps and affine cumulative deployed state of charge (SOC). Temporal envelopes initialize reduced ramp and SOC constraint sets. Exact EIFICA iteratively adds violated constraints until omitted temporal constraint residuals satisfy the prescribed tolerance.
 
-[![EIFICA method at a glance](figures/method_overview.svg)](figures/manuscript/Figure1.pdf)
+[![Constraint geometry and EIFICA workflow](figures/method_overview.png)](figures/manuscript/Figure1.pdf)
 
-*Method overview. Select the diagram to view the complete Figure 1 from the manuscript.*
+*Constraint geometry and solution workflow from Figure 1 of the manuscript. Select the diagram to view the full PDF.*
 
 ## Quick start
 

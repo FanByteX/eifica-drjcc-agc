@@ -1,4 +1,4 @@
-"""Draw Figure 6 from the panel-specific dispatch and scenario arrays."""
+"""Draw all Figure 6 panels from one dispatch and error trajectory."""
 
 from __future__ import annotations
 
@@ -310,9 +310,8 @@ def load_panel_data(filename):
 
 def main():
     set_style()
-    result,data,gens,xi=load_panel_data("trajectory_6a.npz")
+    result,data,gens,xi=load_panel_data("trajectory_6.npz")
     plot_figure_4a(result,data,gens,xi)
-    result,data,gens,xi=load_panel_data("trajectory_6bc.npz")
     plot_figure_4b(result,data,gens,xi)
     plot_figure_4c(result,data,xi)
 

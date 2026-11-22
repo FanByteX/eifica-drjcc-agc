@@ -1,6 +1,6 @@
-# Manuscript figures
+# Figure reproduction
 
-The final manuscript illustrations define the figure numbering, plotted data, and presentation used here.
+The included figure set defines the figure numbering and presentation used here.
 
 Run from the repository root:
 
@@ -18,8 +18,7 @@ To draw selected figures, use `--figures 4,5,6`.
 | 3a, 3b | `plot_figure3.py` | `error_correlations.npz` |
 | 4 | `plot_figure4.py` | `rts24_soc.csv`, `rts24_initialization.csv` |
 | 5, 7 | `plot_figures5_7.py` | `rts24_soc.csv`, `rts24_no_storage.csv` |
-| 6a | `plot_figure6.py` | `trajectory_6a.npz` |
-| 6b, 6c | `plot_figure6.py` | `trajectory_6bc.npz` |
+| 6a–6c | `plot_figure6.py` | `trajectory_6.npz` |
 | 8, 10 | `plot_figures8_10_12.py` | `ieee118.csv`, `ieee118_cvar.csv` |
 | 9, 11 | `plot_figures9_11.py` | `reserve/*/summary.csv` and grid settings |
 | 12 | `plot_figures8_10_12.py` | `exactlhs.csv` |

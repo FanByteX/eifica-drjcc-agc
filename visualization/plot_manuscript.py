@@ -1,4 +1,4 @@
-"""Recreate the manuscript result figures from the bundled plotting data."""
+"""Generate result figures from the bundled plotting data."""
 import argparse
 from pathlib import Path
 import subprocess

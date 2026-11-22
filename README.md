@@ -25,7 +25,7 @@ Run these commands from the repository root. The optimization example requires a
 
 - **Optimization:** [`src/eifica_optimizer.py`](src/eifica_optimizer.py) and the [RTS-24 cumulative SOC example](examples/run_cumulative_soc.py)
 - **Renewable trajectories:** [`src/renewable_scenarios.py`](src/renewable_scenarios.py) and [processed forecast and error data](data/processed/)
-- **Figures:** [plotting data](data/figures/), [scripts](visualization/), and [manuscript PDFs](figures/manuscript/)
+- **Figures:** [plotting data](data/figures/), [scripts](visualization/), and [figure PDFs](figures/manuscript/)
 
 ## Reference environment
 

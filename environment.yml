@@ -1,16 +1,17 @@
-name: eifica-public
+name: eifica-agc
 channels:
   - conda-forge
+  - nodefaults
 dependencies:
-  - python=3.9
+  - python=3.9.19
   - numpy=1.26.4
   - matplotlib=3.8.4
   - scipy=1.13.0
   - pandas=2.2.2
   - seaborn=0.13.2
-  - pillow
-  - joblib=1.5.2
+  - pillow=11.3.0
   - pip
   - pip:
+      - joblib==1.5.2
       - pandapower==2.14.6
       - gurobipy==12.0.3

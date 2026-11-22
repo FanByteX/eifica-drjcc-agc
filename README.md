@@ -15,14 +15,18 @@ This repository provides the EIFICA optimization implementation, processed renew
 | Figure data and plotting code | [`data/figures/`](data/figures/), [`visualization/`](visualization/) |
 | Manuscript figure PDFs | [`figures/manuscript/`](figures/manuscript/) |
 
-## Run the code
+## Software environment
 
-Create the environment from the repository root:
+The environment is specified in [`environment.yml`](environment.yml) and uses Python 3.9.19, pandapower 2.14.6, and Gurobi 12.0.3. Create it from the repository root:
 
 ```bash
 conda env create -f environment.yml
-conda activate eifica-public
+conda activate eifica-agc
 ```
+
+The optimization example requires a valid Gurobi license. Figure generation does not require a solver license.
+
+## Run the code
 
 Run the optimization example or generate Figures 3–12 from the included figure data:
 
@@ -31,7 +35,7 @@ python examples/run_cumulative_soc.py --method Exact --n 100 --seed 0
 python visualization/plot_manuscript.py
 ```
 
-The optimization example requires a valid Gurobi license. The figure command writes PDFs to `figures/reproduced/`; [figure notes](visualization/README.md) describe the individual sources and the preparation of Figures 1 and 2.
+The figure command writes PDFs to `figures/reproduced/`; [figure notes](visualization/README.md) describe the individual sources and the preparation of Figures 1 and 2.
 
 ## Data sources
 
